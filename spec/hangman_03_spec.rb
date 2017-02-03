@@ -1,6 +1,6 @@
 
 require "rspec"
-require "hangman"
+require_relative "spec_helper"
 
 describe "Phase III" do
   describe "ComputerPlayer" do
@@ -72,4 +72,3 @@ describe "Phase III" do
     end
   end
 end
-
